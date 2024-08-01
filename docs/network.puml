@@ -1,0 +1,24 @@
+@startuml
+
+nwdiag {
+	internet [ shape = cloud ];
+	internet -- isp_router;
+
+	network unsafe {
+		address = "192.168.0.x/24"
+		color = red
+
+		isp_router [address = ".1"]
+		router
+	}
+
+	network internal {
+		address = "192.168.1.x/24"
+		color = green
+
+		router [address = ".1"]
+		j8puk8s01 [address = ".133"]
+	}
+}
+
+@enduml
