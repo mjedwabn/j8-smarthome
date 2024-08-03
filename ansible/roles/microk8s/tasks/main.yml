@@ -1,0 +1,8 @@
+- import_tasks: provision.yml
+  tags: k8s
+
+- import_tasks: install.yml
+  tags: k8s
+
+- import_tasks: addons.yml
+  tags: k8s

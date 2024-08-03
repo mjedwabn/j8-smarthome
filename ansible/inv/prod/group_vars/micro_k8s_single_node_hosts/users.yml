@@ -1,0 +1,4 @@
+user_accounts:
+  - username: bury
+    groups: 'microk8s'
+    state: present

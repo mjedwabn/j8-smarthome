@@ -1,0 +1,5 @@
+- name: Install admin tools
+  apt:
+    name:
+      - bmon
+
