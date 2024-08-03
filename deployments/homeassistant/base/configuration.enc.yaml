@@ -1,0 +1,42 @@
+homeassistant:
+    name: Home
+    #sensitive
+    latitude: ENC[AES256_GCM,data:PkM5L+Unj2EU4ugFaOukwZg=,iv:UPw7pqteUqcJPFsKek1vjwwm49mRGm+jAPFq6IfYc3M=,tag:OmWpcKrcRmtw07RxRo3f4w==,type:float]
+    #sensitive
+    longitude: ENC[AES256_GCM,data:+/mJuKdMd3Znad02eWvCfTpa,iv:7XXbptM9riAsqw+1yB7kMiY+HfIZwtLF1g5VWoz7zQ0=,tag:he8hoiqr/E9AAEFR3zs+0Q==,type:float]
+    #sensitive
+    elevation: ENC[AES256_GCM,data:K/asOHg=,iv:L1C4w3IHuaiA86CGuBKsrjtyYq+CIxilWfq9Mo7ayq8=,tag:nb/XLshFQ5FOmmltC4SXjA==,type:float]
+    unit_system: metric
+    time_zone: Europe/Warsaw
+    auth_providers:
+        - type: homeassistant
+default_config: null
+http:
+    ip_ban_enabled: false
+    login_attempts_threshold: 5
+    use_x_forwarded_for: true
+    trusted_proxies:
+        - 10.1.0.0/16
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2024-08-04T13:30:23Z"
+    mac: ENC[AES256_GCM,data:igpKDaWDx12G3ATkyiS9UMnUtUrOFFE8wURKJae+Jv4xDnQGQAh/er4vZJsx7075zNvvuGTWei2f2dW+LgV4Bv5WjOTTWwLDmrTu289nT5ds8qkPtcuEwkIADzAuzLA9UlIKGLAYNYA0k4p3JMDnEcPM5VNfYnUFV7HoeDr+WnA=,iv:QiuiwHoebRxfQ9SFrPUSFF3/pMKVhTmrXZiBKXym2VE=,tag:xVMPhYrp3sjZ1DmqtB6hDA==,type:str]
+    pgp:
+        - created_at: "2024-08-04T13:30:16Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hF4DbTkGWe0BjZ4SAQdAFgk7WK1KFBvTAggTsgm52hm7U1Kp3x3eDIx8EjhgU1Yw
+            P5EInDdhDIHlYbcW4c0LnBXOSHzlSuDqjdzUXlxEhna1CvMGhIdKP2NVMo/gOdCR
+            1GgBCQIQ6FF4gAbKFyy2M6xB+FxmB98DzjL6I8SZd9Jd0wzVeFnL3XnZATJoEM5l
+            Zz2Cak9YlwLFwZaVrDpJLIW6A0kch1TvRsu0lBXVaxi9Up6s7Ig/FZFyrQ5BQUZz
+            Mv7t7E+mdfOS/Q==
+            =gUIz
+            -----END PGP MESSAGE-----
+          fp: F317F8165D3698D667B18A6589F22C693793142F
+    encrypted_comment_regex: sensitive
+    version: 3.9.0

@@ -1,0 +1,4 @@
+creation_rules:
+    - path_regex: .*\.enc\.yaml$
+      pgp: 'F317F8165D3698D667B18A6589F22C693793142F'
+      encrypted_comment_regex: 'sensitive'
