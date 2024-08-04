@@ -4,3 +4,6 @@
 - /ansible
 - /deployments
 - /docs
+
+## Home network
+![Home network](docs/network.svg)
