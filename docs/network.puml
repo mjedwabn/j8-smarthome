@@ -1,23 +1,32 @@
 @startuml
 
 nwdiag {
-	internet [ shape = cloud ];
-	internet -- isp_router;
+	internet [ shape = cloud ]
+	internet -- isp_router
 
 	network unsafe {
 		address = "192.168.0.x/24"
 		color = red
 
 		isp_router [address = ".1"]
-		router
+		home_router
 	}
 
 	network internal {
 		address = "192.168.1.x/24"
 		color = green
 
-		router [address = ".1"]
+		home_router [address = ".1"]
 		j8puk8s01 [address = ".133"]
+	}
+
+	j8puk8s01 -- zigbee_gateway
+	zigbee_gateway [address = "USB"]
+
+	network zigbee {
+		color = aqua
+		electrovalve01
+		zigbee_gateway
 	}
 }
 
