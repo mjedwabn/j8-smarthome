@@ -14,6 +14,7 @@ nwdiag {
 
 	network internal {
 		address = "192.168.1.x/24"
+		description = "internal (VLAN 1)"
 		color = green
 
 		home_router [address = ".1"]
@@ -23,6 +24,8 @@ nwdiag {
 		pc01 [address = ".108"]
 
 		tv01 [address = ".143"]
+
+		switch
 	}
 
 	j8puk8s01 -- zigbee_gateway
@@ -32,6 +35,28 @@ nwdiag {
 		color = aqua
 		electrovalve01
 		zigbee_gateway
+	}
+
+	network surveillance {
+		address = "192.168.2.x/24"
+		description = "surveillance (VLAN 3)"
+		color = orange
+
+		switch [address = ".1"]]
+		dvr [address = ".2"]
+	}
+
+	network cameras {
+		address = "10.1.1.x/24"
+		color = yellow
+
+		dvr [address = ".1"]
+		cam01 [address = ".65"]
+		cam02 [address = ".65"]
+		cam03 [address = ".67"]
+		cam04 [address = ".68"]
+		cam05 [address = ".69"]
+		cam06 [address = ".70"]
 	}
 }
 

@@ -1,85 +1,195 @@
 <?xml version="1.0" encoding="us-ascii" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css"
-     height="704px" preserveAspectRatio="none" style="width:257px;height:704px;background:#FFFFFF;" version="1.1"
-     viewBox="0 0 257 704" width="257px" zoomAndPan="magnify">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="951px" preserveAspectRatio="none" style="width:745px;height:951px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 745 951" width="745px" zoomAndPan="magnify">
     <defs/>
     <g>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="98"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="123"
               y="16.6016">&#160;
         </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="98"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="123"
               y="130.7344">&#160;
         </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="64"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="89"
               y="247.8223">unsafe
         </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="5"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="30"
               y="261.9551">192.168.0.x/24
         </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="43" x="59"
-              y="364.9102">internal
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="29"
+              y="364.9102">internal (VLAN 1)
         </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="5"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="30"
               y="379.043">192.168.1.x/24
         </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="98"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="123"
               y="481.998">&#160;
         </text>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="39" x="63"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="39" x="88"
               y="599.0859">zigbee
         </text>
-        <rect fill="#FF0000" height="5" style="stroke:#181818;stroke-width:1.0;" width="142" x="107" y="240.7871"/>
-        <rect fill="#008000" height="5" style="stroke:#181818;stroke-width:1.0;" width="142" x="107" y="357.875"/>
-        <rect fill="#00FFFF" height="5" style="stroke:#181818;stroke-width:1.0;" width="142" x="107" y="592.0508"/>
-        <path d="M178,88.6992 L178,123.6992 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <path d="M178,123.6992 L178,165.1768 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <path d="M176,199.3096 L176,240.7871 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="171"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="122" x="5"
+              y="703.2188">surveillance (VLAN 3)
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="30"
+              y="717.3516">192.168.2.x/24
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="78"
+              y="833.2617">cameras
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="54"
+              y="847.3945">10.1.1.x/24
+        </text>
+        <rect fill="#FF0000" height="5" style="stroke:#181818;stroke-width:1.0;" width="142" x="132" y="240.7871"/>
+        <rect fill="#008000" height="5" style="stroke:#181818;stroke-width:1.0;" width="515" x="132" y="357.875"/>
+        <rect fill="#00FFFF" height="5" style="stroke:#181818;stroke-width:1.0;" width="142" x="132" y="592.0508"/>
+        <rect fill="#FFA500" height="5" style="stroke:#181818;stroke-width:1.0;" width="515" x="132" y="696.1836"/>
+        <rect fill="#FFFF00" height="5" style="stroke:#181818;stroke-width:1.0;" width="605" x="132" y="826.2266"/>
+        <path d="M203,88.6992 L203,123.6992 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <path d="M203,123.6992 L203,165.1768 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <path d="M201,199.3096 L201,240.7871 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="196"
               y="224.2056">.1
         </text>
-        <path d="M180,245.7871 L180,282.2646 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <path d="M180,316.3975 L180,357.875 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="175"
+        <path d="M205,245.7871 L205,282.2646 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <path d="M205,316.3975 L205,357.875 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="200"
               y="341.2935">.1
         </text>
-        <path d="M176,362.875 L176,399.3525 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="164"
+        <path d="M201,362.875 L201,399.3525 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="189"
               y="382.771">.133
         </text>
-        <path d="M178,433.4854 L178,474.9629 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <path d="M178,474.9629 L178,516.4404 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="168"
+        <path d="M203,433.4854 L203,474.9629 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <path d="M323.5,362.875 L323.5,399.3525 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="311.5"
+              y="382.771">.126
+        </text>
+        <path d="M420,362.875 L420,399.3525 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="408"
+              y="382.771">.108
+        </text>
+        <path d="M510,362.875 L510,399.3525 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="498"
+              y="382.771">.143
+        </text>
+        <path d="M600,362.875 L600,399.3525 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <path d="M600,433.4854 L600,696.1836 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="595"
+              y="679.6021">.1
+        </text>
+        <path d="M203,474.9629 L203,516.4404 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="193"
               y="499.8589">USB
         </text>
-        <path d="M180,550.5732 L180,592.0508 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <path d="M176,597.0508 L176,627.0508 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
-        <path d="M150.7973,53.8175 C155.5809,47.5856 160.4418,47.377 165.3258,53.7014 C168.5662,45.1851 175.308,45.0349 180.1209,52.2196 C185.4476,46.0112 190.1414,46.4647 193.7179,53.9566 C198.6252,47.3536 203.5583,46.5088 207.925,54.4835 C215.3599,55.6523 217.0409,62.2421 212.28,67.4934 C217.0027,73.1615 216.5037,79.0582 208.726,81.5703 C204.6815,87.9186 198.2546,88.9914 193.796,82.035 C189.2701,89.8188 184.478,89.7107 178.3242,83.8858 C173.5016,90.1061 168.0418,90.7544 164.367,82.7588 C159.8748,89.4941 154.9077,89.9639 150.373,82.8015 C141.4362,82.4393 138.3142,76.4101 142.8033,68.793 C136.7769,60.4289 142.4568,54.5125 150.7973,53.8175 "
+        <path d="M205,550.5732 L205,592.0508 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <path d="M201,597.0508 L201,627.0508 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <path d="M205,701.1836 L205,744.1387 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="200"
+              y="724.3184">.2
+        </text>
+        <path d="M205,778.2715 L205,826.2266 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="200"
+              y="806.4063">.1
+        </text>
+        <path d="M201,831.2266 L201,867.7041 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="192.5"
+              y="851.1226">.65
+        </text>
+        <path d="M323.5,831.2266 L323.5,867.7041 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="315"
+              y="851.1226">.65
+        </text>
+        <path d="M420,831.2266 L420,867.7041 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="411.5"
+              y="851.1226">.67
+        </text>
+        <path d="M510,831.2266 L510,867.7041 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="501.5"
+              y="851.1226">.68
+        </text>
+        <path d="M600,831.2266 L600,867.7041 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="591.5"
+              y="851.1226">.69
+        </text>
+        <path d="M690,831.2266 L690,867.7041 " fill="none" style="stroke:#181818;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="681.5"
+              y="851.1226">.70
+        </text>
+        <path d="M175.7973,53.8175 C180.5809,47.5856 185.4418,47.377 190.3258,53.7014 C193.5662,45.1851 200.308,45.0349 205.1209,52.2196 C210.4476,46.0112 215.1414,46.4647 218.7179,53.9566 C223.6252,47.3536 228.5583,46.5088 232.925,54.4835 C240.3599,55.6523 242.0409,62.2421 237.28,67.4934 C242.0027,73.1615 241.5037,79.0582 233.726,81.5703 C229.6815,87.9186 223.2546,88.9914 218.796,82.035 C214.2701,89.8188 209.478,89.7107 203.3242,83.8858 C198.5016,90.1061 193.0418,90.7544 189.367,82.7588 C184.8748,89.4941 179.9077,89.9639 175.373,82.8015 C166.4362,82.4393 163.3142,76.4101 167.8033,68.793 C161.7769,60.4289 167.4568,54.5125 175.7973,53.8175 "
               fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="156"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="181"
               y="71.168">internet
         </text>
-        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="78" x="139" y="165.1768"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="149"
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="78" x="164" y="165.1768"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="174"
               y="186.7783">isp_router
         </text>
-        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="93" x="131.5"
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="93" x="156.5"
               y="282.2646"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="141.5"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="166.5"
               y="303.8662">home_router
         </text>
-        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="84" x="136" y="399.3525"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="146"
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="84" x="161" y="399.3525"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="171"
               y="420.9541">j8puk8s01
         </text>
-        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="112" x="122"
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="73" x="289" y="399.3525"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="299"
+              y="420.9541">laptop01
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="50" x="397" y="399.3525"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="407"
+              y="420.9541">pc01
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="46" x="489" y="399.3525"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="499"
+              y="420.9541">tv01
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="55" x="574.5"
+              y="399.3525"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="584.5"
+              y="420.9541">switch
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="112" x="147"
               y="516.4404"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="132"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="157"
               y="538.042">zigbee_gateway
         </text>
-        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="104" x="126"
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="104" x="151"
               y="627.0508"/>
-        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="136"
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="161"
               y="648.6523">electrovalve01
-        </text><!--SRC=[TP31Ri8m38RFoLDOlTCrC4tTWSjUOUA49kGrNYc4f2GD7Knzzxb3g2tRZlPl_zzlsrPNMCAN59Ljo5jgO0rXYpN14WhZeeQtaJQRGHNgZNUH6r8AxhNExo7QW1_KsmZKsbC8l9wevtcgdl8qIpyVvey9YuKpphFaIVEs6BnWFTfBLS9GiNK7kg54Dw9Tuw3vZwT-yKfFPENKyo_aBg_ZFW-PkXCNYrxkCmmJ_8jBLRuJRKfigCMp5DDwuh5wVM6BuORhwCy5jv1uZCWb6IeQxqveJfGfRjnJEjd9Rm00]-->
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="39" x="183.5"
+              y="744.1387"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="19" x="193.5"
+              y="765.7402">dvr
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="60" x="173" y="867.7041"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="183"
+              y="889.3057">cam01
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="60" x="295.5"
+              y="867.7041"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="305.5"
+              y="889.3057">cam02
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="60" x="392" y="867.7041"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="402"
+              y="889.3057">cam03
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="60" x="482" y="867.7041"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="492"
+              y="889.3057">cam04
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="60" x="572" y="867.7041"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="582"
+              y="889.3057">cam05
+        </text>
+        <rect fill="#F1F1F1" height="34.1328" style="stroke:#181818;stroke-width:0.5;" width="60" x="662" y="867.7041"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="672"
+              y="889.3057">cam06
+        </text><!--SRC=[TP9FKuCm4CNFy2aoFUcXIA2bzE11puuNHoyTfnF3IcFJ19C0LgVVtL1QofzoJ7vv-pRxLfG98odwSnqc32W11gsGtf0Cq3sYNEO9Uc-nwHGndQsLpEs5wphshfHgYtAXoITKPHoI90gqjl89NWOUZcBFztxkWjd4GYgvL1OfIApQkTH2gvREmnDhwcpa3ivMpg7bLhT3-9WVRlmIq5Inp30fgWUDyERjwU4PuTjsJwa246xNzrfRNt6MRsFjunuCGuijvoGpCXlW83ggCpeWVbmBJJ50irDDNJ93D_KKBlusZL-MVW2iKsAW97lNwPuxrLvV7e_5pbEidnvdU1u1-Sw9FG87QfGi22_0n_QYxz8EG-Ug0COv4NHq0OAnG3hYEfIm4ufKHAHm6S4Wa6gcIT4BAgX6tMwIaXqeeWVz-NPNy60xzy2vBDrhbUiLiENwKKNpXWIZ9EoHHKDcFH8tPDuZouP4NRBmwryVt7y0]-->
     </g>
 </svg>
