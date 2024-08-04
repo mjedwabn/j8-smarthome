@@ -18,6 +18,11 @@ nwdiag {
 
 		home_router [address = ".1"]
 		j8puk8s01 [address = ".133"]
+
+		laptop01 [address = ".126"]
+		pc01 [address = ".108"]
+
+		tv01 [address = ".143"]
 	}
 
 	j8puk8s01 -- zigbee_gateway
