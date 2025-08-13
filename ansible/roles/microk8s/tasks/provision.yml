@@ -16,3 +16,9 @@
     name: snapd
     state: present
     update_cache: yes
+
+- name: Refresh snapd
+  community.general.snap:
+    name: snapd
+    channel: stable
+    classic: true

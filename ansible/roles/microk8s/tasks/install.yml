@@ -1,5 +1,5 @@
 - name: Install MicroK8S
   community.general.snap:
     name: microk8s
-    channel: '1.30'
+    channel: '1.33'
     classic: true
