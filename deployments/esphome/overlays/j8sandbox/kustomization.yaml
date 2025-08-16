@@ -3,6 +3,9 @@ kind: Kustomization
 resources:
   - ../../base
 
+generators:
+  - ./secret-generator.yaml
+
 namespace: home-assistant
 
 patches:
