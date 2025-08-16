@@ -32,12 +32,18 @@ spec:
           volumeMounts:
             - name: config
               mountPath: /config
+            - name: secrets
+              mountPath: /config/secrets.yaml
+              subPath: secrets.yaml
             - name: usb
               mountPath: /dev/usb
       volumes:
         - name: config
           persistentVolumeClaim:
             claimName: esphome
+        - name: secrets
+          secret:
+            secretName: esphome
         - name: usb
           hostPath:
             path: /dev/ttyUSB0
